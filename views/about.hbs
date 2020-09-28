@@ -1,0 +1,19 @@
+<h1>{{my.Data.name}}</h1>
+<center>
+<div>
+
+    <ul class="about">
+        {{#with myData.aboutme}}
+        <img src="../../img/pro.jpg"><br><br>
+        <span class="first-block">FullName:</span><span class="second-block">{{FullName}}</span><br>
+        <span class="first-block">Phone:</span><span class="second-block">{{Phone}}</span><br>
+        <span class="first-block">Email:</span><span class="second-block"><a 
+                    href="{{Email}}">{{Email}}</a></span><br>
+       <span class="first-block">Website:</span><span class="second-block"><a 
+                    href="{{Website}}">{{Website}}</a></span><br>
+       <span class="first-block">Address:</span><span class="second-block">{{Address}}</span>
+       {{/with}}
+    </ul>
+</div>
+</center>
+        
