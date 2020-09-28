@@ -20,7 +20,7 @@ body{
   color: white;
 }
 
-.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.html {width: 35%; background-color: #4CAF50;}
+.css {width: 25%; background-color: #2196F3;}
+.js {width: 20%; background-color: #f44336;}
+.php {width: 15%; background-color: #808080;}
