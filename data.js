@@ -15,7 +15,13 @@ const data = {
     },
     "workexperience":{
         "ประสบการณ์ทำงาน":"กำลังศึกษา"
+    },
+    "skill":{
+        "HTML":"35%",
+        "PHP":"25%",
+        "CSS":"20%",
+        "JavaScript":"15%"
     }
 
 };
-module.exports = data ;
+module.exports = data ; 
