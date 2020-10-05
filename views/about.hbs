@@ -1,3 +1,62 @@
+<scetion class="about section" id="about">
+    {{#with myData.aboutme}}
+    <h2 class="section-title">Aboutme</h2>
+
+    <div class="about__container bd-grid">
+        <div class="about__data">
+            <p class="about__description">Portfolio นี้ข้าพเจ้าจัดทําขึ้นเพื่อเป็นตัวแทนนําเสนอเอกสารข้อมูลเกี่ยวกับ ประวัติส่วนตัว ประวัติการศึกษา ความรู้ความสามารถ ทักษะ</p>
+            <img src="../../img/pro.jpg" alt="" class="about__img">
+        </div>
+
+        <div class="about__information">
+            <h3 class="about__information-title">Information</h3>
+            <div class="about__information-data">
+                <i class='bx bx-user abuot__information-icon'></i>
+                <span>{{FullName}}</span>
+            </div>
+
+            <div class="about__information-data">
+                <i class='bx bx-phone abuot__information-icon'></i>
+                <span>{{Phone}}</span>
+            </div>
+
+            <div class="about__information-data">
+                <i class='bx bx-mail-send abuot__information-icon'></i>
+                <span>{{Email}}</span>
+            </div>
+
+            <div class="about__information-data">
+                <i class='bx bx-world abuot__information-icon'></i>
+                <span><a href="{{Website}}" target="_blank">{{Website}}</a></span>
+            </div>
+
+            <div class="about__information-data">
+                <i class='bx bx-current-location abuot__information-icon'></i>
+                <span>{{Address}}</span>
+            </div>
+        </div>
+    </div>
+    {{/with}}
+</scetion>
+
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Mhapao</h1>
+        <p class="footer__description">I am mhapao and this is my personal website, consult me here</p>
+
+        <div class="foodter__social">
+            <a href="https://www.facebook.com/Nattanai.Teerakanon/" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/mhapao_/?hl=th" target="_blank" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/mhapao" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <p class="footer__copy">All right reserved by mhapao - 2020</p>
+    </div>
+</footer>
+
+
+
+<!--
 <h1>{{my.Data.name}}</h1>
 <center>
 <div>
@@ -5,15 +64,15 @@
     <ul class="about">
         {{#with myData.aboutme}}
         <img src="../../img/pro.jpg"><br><br>
-        <span class="first-block">FullName:</span><span class="second-block">{{FullName}}</span><br>
-        <span class="first-block">Phone:</span><span class="second-block">{{Phone}}</span><br>
+        <span class="first-block">FullName:</span><span class="second-block"></span><br>
+        <span class="first-block">Phone:</span><span class="second-block"></span><br>
         <span class="first-block">Email:</span><span class="second-block"><a 
-                    href="{{Email}}">{{Email}}</a></span><br>
+                    href="{{Email}}"></a></span><br>
        <span class="first-block">Website:</span><span class="second-block"><a 
-                    href="{{Website}}">{{Website}}</a></span><br>
-       <span class="first-block">Address:</span><span class="second-block">{{Address}}</span>
+                    href="{{Website}}"></a></span><br>
+       <span class="first-block">Address:</span><span class="second-block"></span>
        {{/with}}
     </ul>
 </div>
 </center>
-        
+        -->

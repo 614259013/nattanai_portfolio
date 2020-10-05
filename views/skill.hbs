@@ -1,28 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-</head>
-<body>
-    <h1>My Skills</h1>
-<p>HTML</p>
+<section class="skill section" id="section">
+  <h2 class="section-title">My expertise Area</h2>
+
+  <div class="skill__container bd-grid">
+      <div class="skill__content">
+        <h3 class="skill__Subtitle">My Skill</h3>
+
+        <div class="skill__data">
+          <span class="skill__name">HTML/CSS</span>
+          <span class="skill__number">{{myData.skill.HTML}}</span>
+          <span class="skill__bar skill__html"></span>
+        </div>
+
+        <div class="skill__data">
+          <span class="skill__name">PHP</span>
+          <span class="skill__number">{{myData.skill.PHP}}</span>
+          <span class="skill__bar skill__php"></span>
+        </div>
+
+        <div class="skill__data">
+          <span class="skill__name">CSS</span>
+          <span class="skill__number">{{myData.skill.CSS}}</span>
+          <span class="skill__bar skill__css"></span>
+        </div>
+
+        <div class="skill__data">
+          <span class="skill__name">JavaScript</span>
+          <span class="skill__number">{{myData.skill.JavaScript}}</span>
+          <span class="skill__bar skill__js"></span>
+        </div>
+      </div>
+      
+  </div>
+</section>
+
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Mhapao</h1>
+        <p class="footer__description">I am mhapao and this is my personal website, consult me here</p>
+
+        <div class="foodter__social">
+            <a href="https://www.facebook.com/Nattanai.Teerakanon/" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/mhapao_/?hl=th" target="_blank" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/mhapao" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <p class="footer__copy">All right reserved by mhapao - 2020</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!--
 <div class="skill">
         <div class="container">
-        <div class="skills html">{{myData.skill.HTML}}</div>
+        <div class="skills html"></div>
 </div>
 
 <p>PHP</p>
 <div class="container">
-  <div class="skills php">{{myData.skill.PHP}}</div>
+  <div class="skills php"></div>
 </div>
 
 <p>CSS</p>
 <div class="container">
-  <div class="skills css">{{myData.skill.CSS}}</div>
+  <div class="skills css"></div>
 </div>
 
 <p>JavaScript</p>
 <div class="container">
-  <div class="skills js">{{myData.skill.JavaScript}}</div>
+  <div class="skills js"></div>
 </div>
-</body>
-</html>
+-->

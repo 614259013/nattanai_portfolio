@@ -1,9 +1,37 @@
-<h1>{{my.Data.name}}</h1>
-<div>
-    <ul class="workexperience">
-        {{#with myData.workexperience}}
-        <span class="first-block">ประสบการณ์ทำงาน:</span><span class="second-block">{{ประสบการณ์ทำงาน}}</span>
-        
-       {{/with}}
-    </ul>
-</div>
+<section class="services section" id="services">
+{{#with myData.workexperience}}    
+<h2 class="service-title">My workexperience</h2>
+
+    <div class="services__container bd-grid">
+        <div class="services__content">
+            <i class='bx bxs-school services__icon'></i>
+            <h3 class="services__title">{{ประสบการณ์ทำงาน}}</h3>
+            <p class="services__description">อยู่ที่มหาวิทยาราชภัฎนครปฐม สาขาวิศวกรรมซอฟต์แวร์</p>
+        </div>
+    </div>
+{{/with}}
+</section>
+
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Mhapao</h1>
+        <p class="footer__description">I am mhapao and this is my personal website, consult me here</p>
+
+        <div class="foodter__social">
+            <a href="https://www.facebook.com/Nattanai.Teerakanon/" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/mhapao_/?hl=th" target="_blank" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/mhapao" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <p class="footer__copy">All right reserved by mhapao - 2020</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
